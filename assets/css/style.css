@@ -1,0 +1,107 @@
+/* style.css */
+html,
+body {
+  margin:0;
+  padding:0;
+  height: 100%
+}
+
+h1, h2, h3, h4, h5,
+h6 {
+  font-family: Roboto;
+}
+
+p {
+  font-family: Poppins
+}
+
+img {
+  max-width: 100%;
+}
+
+/* cover section */
+#cover {
+  background: url('../img/cover.jpeg') no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#cover-caption {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: Roboto;
+}
+
+/* carousel section */
+
+.carousel-caption {
+  background-color: #000;
+  opacity: 0.7;
+}
+
+/* what-we-do section */
+
+.section-content {
+  padding: 5rem 0;
+}
+
+/* about section */
+
+#about {
+  background: url('../img/chef.jpeg') center center no-repeat;
+  background-size: cover;
+}
+
+.about-text {
+  background-color: #000;
+  opacity: 0.7;
+  display: block;
+  color: #fff;
+  padding: 1.6rem;
+}
+
+/* footer section */
+
+.footer-main {
+  background-color: #222;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+li a {
+  font-family: Poppins;
+  color: #fff;
+}
+
+li a:hover {
+  text-decoration: none;
+}
+
+.heart {
+  color: red;
+  font-size: 18px;
+}
+
+.heart-beat span.animated {
+  
+}
+
+.me {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 1rem;
+}
+
+.name a:hover {
+  text-decoration: none;
+}
